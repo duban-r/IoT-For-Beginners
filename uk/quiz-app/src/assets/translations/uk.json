@@ -1,0 +1,2461 @@
+[
+	{
+		"title": "IoT для початківців: тести",
+		"complete": "Вітаємо, ви завершили тест!",
+		"error": "На жаль, спробуйте ще раз",
+		"quizzes": [
+			{
+				"id": 1,
+				"title": "Урок 1. Вступ до IoT: тест перед лекцією",
+				"quiz": [
+					{
+						"questionText": "Літера I в IoT означає:",
+						"answerOptions": [
+							{
+								"answerText": "Internet (Інтернет)",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Iridium (Іридій)",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Ironing (Прасування)",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Скільки, за оцінками, IoT-пристроїв використовувалося наприкінці 2020 року?",
+						"answerOptions": [
+							{
+								"answerText": "30",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "30 мільйонів",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "30 мільярдів",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Смартфони є IoT-пристроями",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 2,
+				"title": "Урок 1. Вступ до IoT: тест після лекції",
+				"quiz": [
+					{
+						"questionText": "IoT-пристрої мають бути постійно підключені до Інтернету",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "IoT-пристрої завжди захищені",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "AI можна запускати на малопотужних IoT-пристроях",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3,
+				"title": "Урок 2. Глибше про IoT: тест перед лекцією",
+				"quiz": [
+					{
+						"questionText": "Літера T в IoT означає:",
+						"answerOptions": [
+							{
+								"answerText": "Transistors (Транзистори)",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Things (Речі)",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Turkeys (Індики)",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "IoT-пристрої збирають інформацію про навколишній світ за допомогою:",
+						"answerOptions": [
+							{
+								"answerText": "Сенсорів",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Актуаторів",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Поштових голубів",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "IoT-пристрої споживають більше енергії, ніж звичайний настільний комп'ютер чи ноутбук",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 4,
+				"title": "Урок 2. Глибше про IoT: тест після лекції",
+				"quiz": [
+					{
+						"questionText": "Три етапи циклу виконання інструкції процесором:",
+						"answerOptions": [
+							{
+								"answerText": "Декодування, виконання, вибірка",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Вибірка, декодування, виконання",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Зупинка, співпраця, прослуховування",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Яку операційну систему використовують Raspberry Pi?",
+						"answerOptions": [
+							{
+								"answerText": "Вони не використовують ОС",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Windows 95",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Raspberry Pi OS",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "IoT-пристрої зазвичай працюють швидше й мають більше пам'яті, ніж звичайний настільний комп'ютер чи ноутбук",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 5,
+				"title": "Урок 3. Взаємодія з фізичним світом за допомогою сенсорів і актуаторів: тест перед лекцією",
+				"quiz": [
+					{
+						"questionText": "Світлодіод є сенсором:",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Сенсори використовують, щоб:",
+						"answerOptions": [
+							{
+								"answerText": "Збирати дані з фізичного світу.",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Керувати фізичним світом.",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Лише вимірювати температуру.",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Актуатори використовують, щоб:",
+						"answerOptions": [
+							{
+								"answerText": "Збирати дані з фізичного світу.",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Керувати фізичним світом.",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Обчислювати страхові ризики.",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 6,
+				"title": "Урок 3. Взаємодія з фізичним світом за допомогою сенсорів і актуаторів: тест після лекції",
+				"quiz": [
+					{
+						"questionText": "Цифрові сенсори надсилають дані у вигляді:",
+						"answerOptions": [
+							{
+								"answerText": "Діапазону напруг",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Лише високої та низької напруги",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Електронних листів",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Який цифровий сигнал надсилається, коли кнопку натиснуто?",
+						"answerOptions": [
+							{
+								"answerText": "0",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "1",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Аналоговими актуаторами можна керувати з цифрового пристрою за допомогою широтно-імпульсної модуляції (ШІМ)",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 7,
+				"title": "Урок 4. Підключіть свій пристрій до Інтернету: тест перед лекцією",
+				"quiz": [
+					{
+						"questionText": "IoT-пристроям для роботи завжди потрібне підключення до Інтернету:",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "IoT-пристрої завжди обмінюються даними через HTTP, так само як вебзастосунки та інші веб-API:",
+						"answerOptions": [
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "IoT-пристрої покладаються на хмару в ухваленні всіх рішень:",
+						"answerOptions": [
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 8,
+				"title": "Урок 4. Підключіть свій пристрій до Інтернету: тест після лекції",
+				"quiz": [
+					{
+						"questionText": "Дані, зібрані сенсорами й надіслані в хмару, називаються:",
+						"answerOptions": [
+							{
+								"answerText": "Телеметрією",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Командами",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Вимірами",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Що має статися з командою, якщо IoT-пристрій не в мережі:",
+						"answerOptions": [
+							{
+								"answerText": "Її завжди треба надіслати повторно, коли пристрій знову з'явиться в мережі",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Її ніколи не треба надсилати повторно, коли пристрій знову з'явиться в мережі",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Це залежить від команди, пристрою та вимог IoT-застосунку",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "MQTT (Message Queueing Telemetry Transport) має черги повідомлень:",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 9,
+				"title": "Урок 5. Прогнозування росту рослин: тест перед лекцією",
+				"quiz": [
+					{
+						"questionText": "IoT-пристрої можна використовувати в сільському господарстві",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Рослинам потрібні: (виберіть найкращу відповідь)",
+						"answerOptions": [
+							{
+								"answerText": "Вуглекислий газ, вода, поживні речовини",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Вуглекислий газ, вода, поживні речовини, світло",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Вуглекислий газ, вода, поживні речовини, світло, тепло",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Сенсори занадто дорогі для фермерів у розвинених країнах:",
+						"answerOptions": [
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 10,
+				"title": "Урок 5. Прогнозування росту рослин: тест після лекції",
+				"quiz": [
+					{
+						"questionText": "Ріст рослин залежить від температури",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Які температури враховують для росту рослин:",
+						"answerOptions": [
+							{
+								"answerText": "Мінімальну, максимальну",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Базову, оптимальну, максимальну",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Лише максимальну",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "За якою формулою обчислюють суму ефективних температур (Growing Degree Days):",
+						"answerOptions": [
+							{
+								"answerText": "(денний максимум + денний мінімум) - базова температура рослини",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "((денний максимум + денний мінімум) / 2) - базова температура рослини",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "((денний мінімум + базова температура рослини) / 2)",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 11,
+				"title": "Урок 6. Вимірювання вологості ґрунту: тест перед лекцією",
+				"quiz": [
+					{
+						"questionText": "IoT-пристрої можна використовувати для вимірювання параметрів середовища, як-от вологості ґрунту",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Що з наведеного може зашкодити росту рослин (виберіть одне)?",
+						"answerOptions": [
+							{
+								"answerText": "Замало води",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Забагато води",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Замало або забагато води",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Усі сенсори постачаються вже відкаліброваними в стандартних одиницях:",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 12,
+				"title": "Урок 6. Вимірювання вологості ґрунту: тест після лекції",
+				"quiz": [
+					{
+						"questionText": "Під час вимірювання вологості ґрунту одна з відмінностей між резистивними та ємнісними сенсорами полягає в тому, що:",
+						"answerOptions": [
+							{
+								"answerText": "Зі зростанням вологості напруга резистивних сенсорів зростає, а ємнісних спадає",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Зі зростанням вологості напруга резистивних сенсорів спадає, а ємнісних зростає",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Зі зростанням вологості напруга зростає і в резистивних, і в ємнісних сенсорах",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Протокол SPI підтримує:",
+						"answerOptions": [
+							{
+								"answerText": "Лише один контролер і лише один периферійний пристрій",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Лише один контролер і кілька периферійних пристроїв",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Кілька контролерів і кілька периферійних пристроїв",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Протокол I2C підтримує:",
+						"answerOptions": [
+							{
+								"answerText": "Лише один контролер і лише один периферійний пристрій",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Лише один контролер і кілька периферійних пристроїв",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Кілька контролерів і кілька периферійних пристроїв",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 13,
+				"title": "Урок 7. Автоматичний полив рослин: тест перед лекцією",
+				"quiz": [
+					{
+						"questionText": "IoT-пристрої достатньо потужні, щоб керувати водяними насосами",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Актуатори можна використовувати для керування живленням інших пристроїв",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Сенсори миттєво фіксують зміни, спричинені актуаторами",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 14,
+				"title": "Урок 7. Автоматичний полив рослин: тест після лекції",
+				"quiz": [
+					{
+						"questionText": "Реле — це перемикач якого типу:",
+						"answerOptions": [
+							{
+								"answerText": "Електричний",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Електромеханічний",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Механічний",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Реле дає змогу:",
+						"answerOptions": [
+							{
+								"answerText": "Малопотужному пристрою керувати потужнішим пристроєм",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Потужному пристрою керувати малопотужним пристроєм",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Бігунам передавати естафетну паличку під час забігу",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Актуатори завжди мають миттєво реагувати на покази сенсорів:",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 15,
+				"title": "Урок 8. Перенесення рослини в хмару: тест перед лекцією",
+				"quiz": [
+					{
+						"questionText": "Публічний MQTT-брокер цілком підходить для комерційного IoT-проєкту",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Хмарні обчислення дають змогу:",
+						"answerOptions": [
+							{
+								"answerText": "Лише орендувати комп'ютери",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Орендувати лише комп'ютери та платформи для застосунків",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Орендувати комп'ютери, платформи для застосунків, програмне забезпечення, безсерверні платформи та інші сервіси",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Існує кілька хмарних постачальників із центрами обробки даних у багатьох країнах на 6 континентах",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 16,
+				"title": "Урок 8. Перенесення рослини в хмару: тест після лекції",
+				"quiz": [
+					{
+						"questionText": "Щоб надіслати IoT-пристрою запит на керування актуатором і отримати відповідь, код застосунку може використати:",
+						"answerOptions": [
+							{
+								"answerText": "Повідомлення з пристрою в хмару (device-to-cloud)",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Двійник пристрою (device twin)",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Запит прямого методу (direct method)",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "IoT Hub дозволяє будь-якому пристрою підключатися без жодного захисту:",
+						"answerOptions": [
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Назви IoT Hub мають бути унікальними:",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 17,
+				"title": "Урок 9. Перенесення логіки застосунку в хмару: тест перед лекцією",
+				"quiz": [
+					{
+						"questionText": "Для реагування на IoT-події можна використовувати безсерверний (serverless) код",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Коли ви надсилаєте IoT-події в IoT Hub:",
+						"answerOptions": [
+							{
+								"answerText": "Читати події з IoT Hub може лише один сервіс",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Читати події з IoT Hub може будь-яка кількість сервісів",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Сервіси не можуть читати події з IoT Hub, вони мають підключатися безпосередньо до пристрою",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Читати події з IoT Hub можна лише кодом, який працює в хмарі",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 18,
+				"title": "Урок 9. Перенесення логіки застосунку в хмару: тест після лекції",
+				"quiz": [
+					{
+						"questionText": "Azure Functions можна запускати й налагоджувати локально:",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Безсерверний код можна писати лише на JavaScript і COBOL:",
+						"answerOptions": [
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Під час розгортання Functions App у хмарі потрібно створити й розгорнути:",
+						"answerOptions": [
+							{
+								"answerText": "Лише Functions App",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Лише Functions App і обліковий запис сховища (Storage Account)",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Functions App, обліковий запис сховища (Storage Account) і параметри застосунку (Application Settings)",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 19,
+				"title": "Урок 10. Захист рослини: тест перед лекцією",
+				"quiz": [
+					{
+						"questionText": "IoT-пристрої завжди захищені",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Немає задокументованих випадків, коли хакери проникали в мережу через IoT-пристрій:",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Рядком підключення IoT-пристрою можна ділитися з будь-ким",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 20,
+				"title": "Урок 10. Захист рослини: тест після лекції",
+				"quiz": [
+					{
+						"questionText": "Чим симетричне шифрування відрізняється від асиметричного:",
+						"answerOptions": [
+							{
+								"answerText": "Симетричне шифрування повільніше за асиметричне",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Симетричне шифрування надійніше за асиметричне",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Симетричне шифрування швидше за асиметричне, але менш надійне",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Симетричне шифрування повільніше за асиметричне, але надійніше",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Самопідписані сертифікати X.509 ідеально підходять для робочого (production) середовища",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Сертифікати X.509:",
+						"answerOptions": [
+							{
+								"answerText": "Ніколи не слід спільно використовувати на кількох IoT-пристроях",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Можна спільно використовувати на кількох пристроях",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Слід надійно зберігати й ніколи не використовувати на жодних пристроях",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 21,
+				"title": "Урок 11. Відстеження місцезнаходження: тест перед лекцією",
+				"quiz": [
+					{
+						"questionText": "Ваше місцезнаходження можна визначити за допомогою",
+						"answerOptions": [
+							{
+								"answerText": "Лише широти",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Лише довготи",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Широти й довготи",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Як називаються сенсори, що можуть відстежувати ваше місцезнаходження:",
+						"answerOptions": [
+							{
+								"answerText": "GPS",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "PGP",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "GIF",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Відстежувати місцезнаходження транспортних засобів немає сенсу",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 22,
+				"title": "Урок 11. Відстеження місцезнаходження: тест після лекції",
+				"quiz": [
+					{
+						"questionText": "GPS-дані надсилаються сенсорами у вигляді:",
+						"answerOptions": [
+							{
+								"answerText": "Координат широти й довготи",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Адрес",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Речень NMEA",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Сигнали щонайменше скількох супутників потрібні для надійного визначення GPS-координат",
+						"answerOptions": [
+							{
+								"answerText": "1",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "2",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "3",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "GPS-сенсори надсилають дані через:",
+						"answerOptions": [
+							{
+								"answerText": "SPI",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "UART",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Електронну пошту",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 23,
+				"title": "Урок 12. Збереження даних про місцезнаходження: тест перед лекцією",
+				"quiz": [
+					{
+						"questionText": "IoT Hub зберігає IoT-дані",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Дані можна поділити на два такі типи",
+						"answerOptions": [
+							{
+								"answerText": "Blob і таблиці",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Структуровані й неструктуровані",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Червоні й сині",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Безсерверний код можна використовувати для запису IoT-даних у базу даних",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 24,
+				"title": "Урок 12. Збереження даних про місцезнаходження: тест після лекції",
+				"quiz": [
+					{
+						"questionText": "IoT-дані, які треба обробити негайно, належать до якого шляху:",
+						"answerOptions": [
+							{
+								"answerText": "Гарячого (hot)",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Теплого (warm)",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Холодного (cold)",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Azure Storage має такі типи сховищ:",
+						"answerOptions": [
+							{
+								"answerText": "Коробки, діжки, ящики",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Blob, таблиці, черги та файли",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Гаряче, тепле, холодне",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Azure Functions можна прив'язати до бази даних, щоб записувати в неї значення, які повертає функція",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 25,
+				"title": "Урок 13. Візуалізація даних про місцезнаходження: тест перед лекцією",
+				"quiz": [
+					{
+						"questionText": "Дуже великі таблиці даних — простий спосіб швидко знайти потрібні дані",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "GPS-дані можна візуалізувати на картах",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "На картах великих територій однакова відстань на карті відповідає однаковій відстані в реальному світі, незалежно від того, в якому місці карти її виміряно",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 26,
+				"title": "Урок 13. Візуалізація даних про місцезнаходження: тест після лекції",
+				"quiz": [
+					{
+						"questionText": "Сервіс для відображення карт на вебсторінці називається:",
+						"answerOptions": [
+							{
+								"answerText": "Azure Maps",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Azure Atlas",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Azure World Visualizer",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Azure Maps наносить дані на карту за допомогою:",
+						"answerOptions": [
+							{
+								"answerText": "GeoJSON",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Списків широт і довгот",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Списків адрес",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Blob-об'єкти можна отримати за URL-адресою",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 27,
+				"title": "Урок 14. Геозони: тест перед лекцією",
+				"quiz": [
+					{
+						"questionText": "За GPS-координатами можна перевірити, чи перебуває об'єкт у визначеній області",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "GPS настільки точний, що може з точністю до 1 м визначити момент, коли пристрій входить у задану область",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Під час відстеження транспорту геозони допомагають:",
+						"answerOptions": [
+							{
+								"answerText": "Визначити лише момент, коли транспортний засіб в'їжджає в задану область",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Визначити лише момент, коли транспортний засіб виїжджає із заданої області",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Визначити, коли транспортний засіб в'їжджає в задану область або виїжджає з неї",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 28,
+				"title": "Урок 14. Геозони: тест після лекції",
+				"quiz": [
+					{
+						"questionText": "Щоб кілька сервісів могли отримувати дані з IoT Hub, потрібно створити кілька:",
+						"answerOptions": [
+							{
+								"answerText": "Груп споживачів (consumer groups)",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Каналів (pipes)",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "IoT Hub",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Буфер пошуку за замовчуванням під час запиту до геозони становить:",
+						"answerOptions": [
+							{
+								"answerText": "5 м",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "50 м",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "500 м",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Точки всередині геозони мають відстань:",
+						"answerOptions": [
+							{
+								"answerText": "Меншу за 0 (від'ємне значення)",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Більшу за 0 (додатне значення)",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 29,
+				"title": "Урок 15. Навчання детектора якості фруктів: тест перед лекцією",
+				"quiz": [
+					{
+						"questionText": "Камери можна використовувати як IoT-сенсори",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Фрукти можна сортувати за допомогою камер",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Моделі AI для зображень надзвичайно складні, їх довго навчати, і для цього потрібні сотні тисяч зображень:",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 30,
+				"title": "Урок 15. Навчання детектора якості фруктів: тест після лекції",
+				"quiz": [
+					{
+						"questionText": "Техніка, за допомогою якої Custom Vision навчає модель лише на кількох зображеннях, називається:",
+						"answerOptions": [
+							{
+								"answerText": "Трансформаційне навчання",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Транзакційне навчання",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Трансферне навчання (transfer learning)",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Класифікатори зображень можна навчити, маючи:",
+						"answerOptions": [
+							{
+								"answerText": "Лише 1 зображення на тег",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Щонайменше 5 зображень на тег",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Щонайменше 50 зображень на тег",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Апаратне забезпечення, яке дає змогу швидко навчати ML-моделі, а також робить графіку на Xbox приголомшливою, називається:",
+						"answerOptions": [
+							{
+								"answerText": "PGU",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "GPU",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "PUG",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 31,
+				"title": "Урок 16. Перевірка якості фруктів з IoT-пристрою: тест перед лекцією",
+				"quiz": [
+					{
+						"questionText": "IoT-пристрої недостатньо потужні, щоб працювати з камерами:",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Сенсори камер використовують плівку, щоб фіксувати зображення",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Який тип даних надсилають сенсори камер",
+						"answerOptions": [
+							{
+								"answerText": "Цифровий",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Аналоговий",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 32,
+				"title": "Урок 16. Перевірка якості фруктів з IoT-пристрою: тест після лекції",
+				"quiz": [
+					{
+						"questionText": "Опублікована версія моделі Custom Vision називається:",
+						"answerOptions": [
+							{
+								"answerText": "Ітерацією (iteration)",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Екземпляром (instance)",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Ігуаною (iguana)",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Зображення, надіслані на класифікацію, потім стають доступними для перенавчання моделі:",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Для навчання моделі не обов'язково використовувати зображення з IoT-пристрою, бо його камери такі ж якісні, як камери телефонів:",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 33,
+				"title": "Урок 17. Запуск детектора фруктів на edge-пристрої: тест перед лекцією",
+				"quiz": [
+					{
+						"questionText": "Edge-обчислення можуть бути безпечнішими за хмарні.",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "ML-модель на edge-пристрої працює менш точно, ніж ML-модель у хмарі.",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Edge-пристроям завжди потрібне підключення до Інтернету.",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 34,
+				"title": "Урок 17. Запуск детектора фруктів на edge-пристрої: тест після лекції",
+				"quiz": [
+					{
+						"questionText": "Який формат або домен потрібен моделям Custom Vision, щоб вони коректно працювали на edge-пристрої?",
+						"answerOptions": [
+							{
+								"answerText": "General (загальний)",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Quick Training (швидке навчання)",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Standard (стандартний)",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Compact (компактний)",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Food (їжа)",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Remote Deployment (віддалене розгортання)",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Що таке контейнер?",
+						"answerOptions": [
+							{
+								"answerText": "Самодостатні застосунки, що містять ML-моделі.",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Самодостатні застосунки, що працюють ізольовано від інших програм.",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Самодостатні застосунки, що запускають програми лише на edge-пристроях.",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Самодостатні застосунки, що забезпечують зв'язок між хмарою та edge-пристроями.",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Як перенавчити модель Custom Vision, розгорнуту на edge-пристроях?",
+						"answerOptions": [
+							{
+								"answerText": "Зробити знімки на edge-пристрої, зберегти їх там і вказати ML-моделі нову папку із зображеннями.",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Завантажити зображення з edge-пристрою в хмару, перенавчити модель у Custom Vision і знову розгорнути її на edge-пристрої.",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Зробити знімки на edge-пристрої й перевірити результат прогнозу.",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 35,
+				"title": "Урок 18. Запуск перевірки якості фруктів від сенсора: тест перед лекцією",
+				"quiz": [
+					{
+						"questionText": "Яка частина IoT-застосунку збирає дані?",
+						"answerOptions": [
+							{
+								"answerText": "Things (Речі)",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Хмарні сервіси",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Edge-пристрої",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Єдині вихідні елементи IoT-застосунку — це актуатори.",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Речам не обов'язково підключатися безпосередньо до IoT Hub, вони можуть використовувати edge-пристрої як шлюзи.",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 36,
+				"title": "Урок 18. Запуск перевірки якості фруктів від сенсора: тест після лекції",
+				"quiz": [
+					{
+						"questionText": "Три складові архітектури IoT-застосунку:",
+						"answerOptions": [
+							{
+								"answerText": "Речі, аналітика (insights), дії",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Речі, Інтернет, бази даних",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "AI, блокчейн, FizzBuzz-ери",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Компонент, що забезпечує зв'язок між речами та компонентами, які створюють аналітику:",
+						"answerOptions": [
+							{
+								"answerText": "Azure Functions",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "IoT Hub",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Azure Maps",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Як працюють часопролітні (time of flight) сенсори відстані?",
+						"answerOptions": [
+							{
+								"answerText": "Вони надсилають лазерний промінь і вимірюють час, за який він відбивається від об'єкта",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Вони використовують звук і вимірюють час, за який звук відбивається від об'єкта",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Вони використовують дуже великі лінійки",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 37,
+				"title": "Урок 19. Навчання детектора товарних запасів: тест перед лекцією",
+				"quiz": [
+					{
+						"questionText": "Моделі AI не можна використовувати для підрахунку об'єктів?",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "IoT та AI можна використовувати в роздрібній торгівлі для:",
+						"answerOptions": [
+							{
+								"answerText": "Лише перевірки запасів",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Широкого кола задач, зокрема перевірки запасів, контролю носіння масок там, де це вимагається, підрахунку відвідувачів, автоматичного розрахунку",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "IoT та AI не можна використовувати в роздрібній торгівлі",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Виявлення об'єктів передбачає:",
+						"answerOptions": [
+							{
+								"answerText": "Знаходження об'єктів на зображенні з визначенням їхнього розташування та ймовірності",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Лише підрахунок об'єктів на зображенні",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Класифікацію зображень",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 38,
+				"title": "Урок 19. Навчання детектора товарних запасів: тест після лекції",
+				"quiz": [
+					{
+						"questionText": "Детектори об'єктів повертають лише один результат, незалежно від кількості виявлених об'єктів",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Який домен Custom Vision найкраще підходить для підрахунку запасів",
+						"answerOptions": [
+							{
+								"answerText": "General (загальний)",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Food (їжа)",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Products on shelves (товари на полицях)",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Щонайменше скільки зображень потрібно, щоб навчити детектор об'єктів?",
+						"answerOptions": [
+							{
+								"answerText": "1",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "15",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "100",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 39,
+				"title": "Урок 20. Перевірка запасів з IoT-пристрою: тест перед лекцією",
+				"quiz": [
+					{
+						"questionText": "IoT-пристрої недостатньо потужні, щоб використовувати детектори об'єктів",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Детектори об'єктів повідомляють:",
+						"answerOptions": [
+							{
+								"answerText": "Кількість виявлених об'єктів",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Кількість і розташування виявлених об'єктів",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Кількість, розташування та ймовірність виявлених об'єктів",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Детектори об'єктів можна використовувати, щоб визначати місця, де бракує товару, і роботи могли автоматично заповнювати полиці",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 40,
+				"title": "Урок 20. Перевірка запасів з IoT-пристрою: тест після лекції",
+				"quiz": [
+					{
+						"questionText": "Щоб підрахувати запаси, достатньо врахувати лише кількість об'єктів, виявлених детектором",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Обмежувальні рамки (bounding boxes) використовують:",
+						"answerOptions": [
+							{
+								"answerText": "Координати у відсотках",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Координати в пікселях",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Координати в сантиметрах",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Чи можуть виявлені об'єкти перекриватися?",
+						"answerOptions": [
+							{
+								"answerText": "Так",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Ні",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 41,
+				"title": "Урок 21. Розпізнавання мовлення IoT-пристроєм: тест перед лекцією",
+				"quiz": [
+					{
+						"questionText": "IoT-пристрої можна використовувати для розпізнавання мовлення:",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Голосові помічники мають надсилати в хмару на обробку все аудіо, яке вони чують:",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Щоб розпізнавати мовлення, IoT-пристроям потрібні великі мікрофони:",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 42,
+				"title": "Урок 21. Розпізнавання мовлення IoT-пристроєм: тест після лекції",
+				"quiz": [
+					{
+						"questionText": "До якого типу сенсорів належать мікрофони?",
+						"answerOptions": [
+							{
+								"answerText": "Цифровий",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Аналоговий",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Звукові хвилі перетворюються на цифрові сигнали за допомогою:",
+						"answerOptions": [
+							{
+								"answerText": "Імпульсно-кодової модуляції (Pulse Code Modulation)",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Чистого кодового множення (Pure Code Multiplication)",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Максимізації ширини імпульсу (Pulse Width Maximization)",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Скільки займає 1 секунда 16-бітного аудіо з частотою дискретизації 16 кГц?",
+						"answerOptions": [
+							{
+								"answerText": "1 КБ",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "16 КБ",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "32 КБ",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 43,
+				"title": "Урок 22. Розуміння мови: тест перед лекцією",
+				"quiz": [
+					{
+						"questionText": "Розуміння мови полягає в пошуку фіксованих слів:",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Розуміння мови полягає в тому, щоб:",
+						"answerOptions": [
+							{
+								"answerText": "Розглядати окремі слова в реченні й намагатися зрозуміти зміст",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Знаходити заздалегідь визначені речення й за ними визначати зміст",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Розглядати речення цілком і намагатися зрозуміти зміст з урахуванням контексту слів",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Хмарні постачальники мають AI-сервіси, які розуміють мову:",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 44,
+				"title": "Урок 22. Розуміння мови: тест після лекції",
+				"quiz": [
+					{
+						"questionText": "Щоб зрозуміти речення, його розкладають на:",
+						"answerOptions": [
+							{
+								"answerText": "Ідеї та пояснення",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Наміри (intents) і сутності (entities)",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Бісенят і ельфів",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Сервіс Microsoft для розуміння мови називається:",
+						"answerOptions": [
+							{
+								"answerText": "CLU (Conversational Language Understanding), раніше LUIS",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Luigi",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Jarvis",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "У реченні «постав таймер на 3 хвилини»:",
+						"answerOptions": [
+							{
+								"answerText": "Намір — 3 хвилини, а сутність — таймер",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Намір — хвилини, а сутність — 3 таймери",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Намір — поставити таймер, а сутність — 3 хвилини",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 45,
+				"title": "Урок 23. Таймер і голосові відповіді: тест перед лекцією",
+				"quiz": [
+					{
+						"questionText": "Мовлення, згенероване моделями AI, звучить монотонно й роботизовано",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Моделі AI можуть синтезувати мовлення лише американською англійською:",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Як модель AI прочитає вголос число 1234:",
+						"answerOptions": [
+							{
+								"answerText": "Один два три чотири",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Одна тисяча двісті тридцять чотири",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "«Один два три чотири» або «одна тисяча двісті тридцять чотири» залежно від контексту",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 46,
+				"title": "Урок 23. Таймер і голосові відповіді: тест після лекції",
+				"quiz": [
+					{
+						"questionText": "Три етапи синтезу мовлення:",
+						"answerOptions": [
+							{
+								"answerText": "Аналіз тексту, аналіз розуміння, генерація звуку",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Аналіз тексту, лінгвістичний аналіз, генерація звукової хвилі",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Аналіз слів, створення аудіо",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Чи можна навчити моделі синтезу мовлення звучати як реальні люди:",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Мова розмітки, якою кодують мовлення, називається:",
+						"answerOptions": [
+							{
+								"answerText": "SSML",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "MSSL",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "SpeechXML",
+								"isCorrect": "false"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 47,
+				"title": "Урок 24. Підтримка кількох мов: тест перед лекцією",
+				"quiz": [
+					{
+						"questionText": "Сервіси розуміння мови розуміють лише англійську:",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					},
+					{
+						"questionText": "Моделі AI для перетворення мовлення на текст розуміють кілька мов:",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "AI-переклад полягає в заміні окремих слів їхніми перекладами:",
+						"answerOptions": [
+							{
+								"answerText": "Правда",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Неправда",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 48,
+				"title": "Урок 24. Підтримка кількох мов: тест після лекції",
+				"quiz": [
+					{
+						"questionText": "Машинний переклад досліджують майже:",
+						"answerOptions": [
+							{
+								"answerText": "70 років",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "17 років",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "7 років",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "AI-перекладачі мови називаються:",
+						"answerOptions": [
+							{
+								"answerText": "Примітивними перекладачами",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Нейронними перекладачами",
+								"isCorrect": "true"
+							},
+							{
+								"answerText": "Ніяк, AI не можна використовувати для перекладу",
+								"isCorrect": "false"
+							}
+						]
+					},
+					{
+						"questionText": "Які інопланетні мови підтримує Microsoft Translator:",
+						"answerOptions": [
+							{
+								"answerText": "На'ві",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Еліенська",
+								"isCorrect": "false"
+							},
+							{
+								"answerText": "Клінгонська",
+								"isCorrect": "true"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>GPS-трек</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="gps_data.js"></script>
+    <style>
+        html,
+        body,
+        #myMap {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="myMap"></div>
+    <script>
+        const map = L.map('myMap');
+
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+
+        const points = L.geoJSON(gpsData, {
+            pointToLayer: (feature, latlng) => L.circleMarker(latlng, { radius: 6 }),
+            onEachFeature: (feature, layer) => layer.bindPopup(feature.properties.timestamp)
+        }).addTo(map);
+
+        map.fitBounds(points.getBounds());
+    </script>
+</body>
+
+</html>
